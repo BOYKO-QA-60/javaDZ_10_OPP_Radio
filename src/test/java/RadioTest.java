@@ -144,6 +144,7 @@ public class RadioTest {
     }
 
     @Test
+
     public void setCurrentVolumeNegative() {
         Radio radio = new Radio();
         radio.setCurrentVolume(-10);
@@ -160,6 +161,7 @@ public class RadioTest {
 
         int expected = 20;
         int actual = radio.getNumberOfStations();
+
 
         Assertions.assertEquals(expected, actual);
     }
